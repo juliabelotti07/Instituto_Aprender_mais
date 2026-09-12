@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Aprender+ | Educação e apoio escolar</title>
+  <meta name="description" content="Instituto Aprender+ é uma ONG dedicada a levar educação e apoio escolar a crianças e jovens em comunidades vulneráveis.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho__logo">
+      <span class="logo__marca">Aprender<span class="logo__mais">+</span></span>
+    </div>
+    <nav class="menu">
+      <ul class="menu__lista">
+        <li class="menu__item"><a href="#inicio">Início</a></li>
+        <li class="menu__item"><a href="#sobre">Sobre</a></li>
+        <li class="menu__item"><a href="#projetos">Projetos</a></li>
+        <li class="menu__item"><a href="#voluntariado">Seja voluntário</a></li>
+        <li class="menu__item"><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="conteudo" id="inicio">
+
+    <div class="hero">
+      <div class="hero__imagem">
+        <img src="https://picsum.photos/id/1005/900/700" alt="Crianças estudando em sala de aula comunitária">
+        <span class="hero__selo">12 anos de atuação</span>
+      </div>
+      <div class="hero__texto">
+        <p class="hero__eyebrow">Instituto Aprender+</p>
+        <h1 class="hero__titulo">Educação que abre portas, ponto de partida para um futuro melhor</h1>
+        <p class="hero__intro">
+          Somos uma organização sem fins lucrativos que oferece reforço escolar,
+          biblioteca comunitária e capacitação de professores voluntários para
+          crianças e jovens em situação de vulnerabilidade social. Acreditamos que
+          uma educação de qualidade transforma trajetórias — e comunidades inteiras.
+        </p>
+        <a href="#voluntariado" class="botao botao--primario">Quero ajudar</a>
+      </div>
+    </div>
+
+    <section class="projetos" id="projetos">
+      <h2 class="secao__titulo">Nossos projetos</h2>
+      <p class="secao__subtitulo">Três frentes de trabalho que sustentam nossa missão educacional.</p>
+
+      <div class="projetos__grade">
+
+        <article class="projeto-card">
+          <img class="projeto-card__imagem" src="https://picsum.photos/id/1074/500/350" alt="Voluntária ajudando uma criança com a lição de casa">
+          <div class="projeto-card__corpo">
+            <h3 class="projeto-card__titulo">Reforço escolar</h3>
+            <p class="projeto-card__descricao">
+              Aulas de apoio em português e matemática, três vezes por semana,
+              para alunos do ensino fundamental com dificuldade de aprendizagem.
+            </p>
+          </div>
+        </article>
+
+        <article class="projeto-card">
+          <img class="projeto-card__imagem" src="https://picsum.photos/id/24/500/350" alt="Estante de livros em uma biblioteca comunitária">
+          <div class="projeto-card__corpo">
+            <h3 class="projeto-card__titulo">Biblioteca comunitária</h3>
+            <p class="projeto-card__descricao">
+              Um espaço de leitura livre e empréstimo de livros, aberto a toda
+              a comunidade, com incentivo à leitura desde a primeira infância.
+            </p>
+          </div>
+        </article>
+
+        <article class="projeto-card">
+          <img class="projeto-card__imagem" src="https://picsum.photos/id/60/500/350" alt="Grupo de professores em uma formação de capacitação">
+          <div class="projeto-card__corpo">
+            <h3 class="projeto-card__titulo">Formação de educadores</h3>
+            <p class="projeto-card__descricao">
+              Workshops gratuitos de metodologias ativas para professores
+              voluntários e da rede pública parceira do Instituto.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <h2 class="secao__titulo secao__titulo--claro">Sobre o Instituto</h2>
+      <p class="sobre__texto">
+        Fundado por um grupo de educadores, o Instituto Aprender+ já passou por
+        mais de 3 mil crianças em comunidades de baixa renda. Trabalhamos em
+        parceria com escolas públicas, empresas apoiadoras e uma rede ativa
+        de voluntários que doam algumas horas da semana para ensinar.
+      </p>
+    </section>
+
+    <section class="voluntariado" id="voluntariado">
+      <div class="voluntariado__texto">
+        <h2 class="secao__titulo">Seja um voluntário</h2>
+        <p>
+          Preencha o formulário ao lado e nossa equipe entrará em contato para
+          combinar dias, horários e a frente de atuação que mais combina com você.
+        </p>
+      </div>
+      <form class="formulario" action="#" method="post">
+        <div class="formulario__campo">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </div>
+        <div class="formulario__campo">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+        </div>
+        <div class="formulario__campo">
+          <label for="area">Área de interesse</label>
+          <select id="area" name="area">
+            <option value="reforco">Reforço escolar</option>
+            <option value="biblioteca">Biblioteca comunitária</option>
+            <option value="formacao">Formação de educadores</option>
+          </select>
+        </div>
+        <button type="submit" class="botao botao--primario">Quero ajudar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="rodape" id="contato">
+    <div class="rodape__coluna">
+      <span class="logo__marca logo__marca--claro">Aprender<span class="logo__mais">+</span></span>
+      <p>Instituto Aprender+ — educação transforma.</p>
+    </div>
+    <div class="rodape__coluna">
+      <h4>Institucional</h4>
+      <ul>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#projetos">Nossos projetos</a></li>
+        <li><a href="#voluntariado">Seja voluntário</a></li>
+      </ul>
+    </div>
+    <div class="rodape__coluna">
+      <h4>Redes sociais</h4>
+      <ul class="rodape__redes">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="mailto:contato@aprendermais.org">contato@aprendermais.org</a></li>
+      </ul>
+    </div>
+    <p class="rodape__copy">© 2026 Instituto Aprender+. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
