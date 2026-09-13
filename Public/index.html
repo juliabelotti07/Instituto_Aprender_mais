@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Saber+ | Educação e apoio para adultos e idosos</title>
+  <meta name="description" content="Instituto Saber+ é uma organização sem fins lucrativos dedicada a ampliar o acesso à educação e ao conhecimento para adultos e idosos em situação de vulnerabilidade social.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho__logo">
+      <span class="logo__marca">Saber<span class="logo__mais">+</span></span>
+    </div>
+    <nav class="menu">
+      <ul class="menu__lista">
+        <li class="menu__item"><a href="#inicio">Início</a></li>
+        <li class="menu__item"><a href="#sobre">Sobre</a></li>
+        <li class="menu__item"><a href="#projetos">Projetos</a></li>
+        <li class="menu__item"><a href="#voluntariado">Seja voluntário</a></li>
+        <li class="menu__item"><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="conteudo" id="inicio">
+
+    <div class="hero">
+      <div class="hero__imagem">
+        <img src="capacitação.jpg" alt="Adultos estudando em sala de aula comunitária">
+        <span class="hero__selo">Mais saber. Mais autonomia.</span>
+      </div>
+      <div class="hero__texto">
+        <p class="hero__eyebrow">Instituto Saber+</p>
+        <h1 class="hero__titulo">Educação que transforma, conhecimento que gera autonomia.</h1>
+        <p class="hero__intro">
+         Somos uma organização sem fins lucrativos dedicada a ampliar o acesso à educação para adultos e idosos em situação de vulnerabilidade social. Por meio de aulas, oficinas e projetos educativos, oferecemos conhecimentos essenciais para o dia a dia, promovendo mais autonomia, confiança e oportunidades.
+        </p>
+        <a href="#voluntariado" class="botao botao--primario">Quero ajudar</a>
+      </div>
+    </div>
+
+    <section class="projetos" id="projetos">
+      <h2 class="secao__titulo">Nossos projetos</h2>
+      <p class="secao__subtitulo">Três frentes de trabalho que sustentam nossa missão educacional.</p>
+
+      <div class="projetos__grade">
+
+        <article class="projeto-card">
+          <img class="projeto-card__imagem" src="Digital.jpg" alt="Voluntária ajudando um adulto com a lição de casa">
+          <div class="projeto-card__corpo">
+            <h3 class="projeto-card__titulo">Inclusão Digital</h3>
+            <p class="projeto-card__descricao">
+              Aulas práticas para ajudar adultos e idosos a utilizar computadores, celulares e internet com mais autonomia. Aprendemos desde conhecimentos básicos de informática até ferramentas como Excel, e-mail, pesquisas na internet e serviços digitais.
+            </p>
+          </div>
+        </article>
+
+        <article class="projeto-card">
+          <img class="projeto-card__imagem" src="Leitura.jpg" alt="Estante de livros em uma biblioteca comunitária">
+          <div class="projeto-card__corpo">
+            <h3 class="projeto-card__titulo">Leitura e Comunicação</h3>
+            <p class="projeto-card__descricao">
+              Atividades de leitura, literatura, português e produção de texto para desenvolver a comunicação, a compreensão e a confiança para se expressar. Um espaço para aprender, compartilhar ideias e descobrir novas histórias.
+            </p>
+          </div>
+        </article>
+
+        <article class="projeto-card">
+          <img class="projeto-card__imagem" src="Matematica.webp" alt="Grupo de professores em uma formação de capacitação">
+          <div class="projeto-card__corpo">
+            <h3 class="projeto-card__titulo">Matemática e Vida Financeira</h3>
+            <p class="projeto-card__descricao">
+            Matemática aplicada a situações reais da vida cotidiana, aliada à educação financeira. Aprendemos a lidar com cálculos, porcentagens, orçamento, contas, preços, descontos e organização financeira.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <h2 class="secao__titulo secao__titulo--claro">Sobre o Instituto</h2>
+      <p class="sobre__texto">
+     O Instituto Saber+ é uma organização sem fins lucrativos dedicada a ampliar o acesso à educação para adultos e idosos em situação de vulnerabilidade social. Por meio de aulas, oficinas e projetos, trabalhamos conhecimentos essenciais para a vida, como informática, português, literatura, produção de texto, matemática e educação financeira. <br> Acreditamos que nunca é tarde para aprender e que o conhecimento é uma ferramenta para conquistar mais autonomia, confiança e oportunidades.
+      </p>
+    </section>
+
+    <section class="voluntariado" id="voluntariado">
+      <div class="voluntariado__texto">
+        <h2 class="secao__titulo">Seja um voluntário</h2>
+        <p>
+          Preencha o formulário ao lado e nossa equipe entrará em contato para
+          combinar dias, horários e a frente de atuação que mais combina com você.
+        </p>
+      </div>
+      <form class="formulario" action="#" method="post">
+        <div class="formulario__campo">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </div>
+        <div class="formulario__campo">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+        </div>
+        <div class="formulario__campo">
+          <label for="area">Área de interesse</label>
+          <select id="area" name="area">
+            <option value="reforco">Inclusão Digital</option>
+            <option value="biblioteca">Leitura e Comunicação</option>
+            <option value="formacao">Matemática e Vida Financeira</option>
+          </select>
+        </div>
+        <button type="submit" class="botao botao--primario">Quero ajudar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="rodape" id="contato">
+    <div class="rodape__coluna">
+      <span class="logo__marca logo__marca--claro">Saber<span class="logo__mais">+</span></span>
+      <p>Instituto Saber+ — educação transforma.</p>
+    </div>
+    <div class="rodape__coluna">
+      <h4>Institucional</h4>
+      <ul>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#projetos">Nossos projetos</a></li>
+        <li><a href="#voluntariado">Seja voluntário</a></li>
+      </ul>
+    </div>
+    <div class="rodape__coluna">
+      <h4>Redes sociais</h4>
+      <ul class="rodape__redes">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="mailto:contato@sabermais.org">contato@sabermais.org</a></li>
+      </ul>
+    </div>
+    <p class="rodape__copy">© 2026 Instituto Saber+. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
