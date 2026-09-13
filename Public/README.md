@@ -21,7 +21,7 @@ Financeira — além de um formulário para cadastro de novos voluntários.
 ## Tecnologias utilizadas
 - HTML5 (tags semânticas: header, nav, main, section, article, footer)
 - CSS3 (box-model, Flexbox, Grid, position)
-- Imagens próprias (capacitacao.jpg, digital.jpg, leitura.jpg, matematica.webp)
+- Imagens utilizadas do google imagens (capacitacao.jpg, digital.jpg, leitura.jpg, matematica.webp)
 
 ## Como executar
 Abra o arquivo `public/index.html` no navegador, ou utilize a extensão
