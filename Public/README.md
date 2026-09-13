@@ -16,7 +16,9 @@ Financeira — além de um formulário para cadastro de novos voluntários.
 ![Wireframe da home-page](wireframe-home.svg)
 
 ## Print da home-page
-![Print da home-page](saber+.png)
+![Print da home-page-desktop](img/print-desktop.png)
+![Print da home-page-mobile](img/print-mobile.png)
+
 
 ## Tecnologias utilizadas
 - HTML5 (tags semânticas: header, nav, main, section, article, footer)
